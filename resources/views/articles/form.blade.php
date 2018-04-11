@@ -1,3 +1,5 @@
+@include('shared.alert')
+
 @extends($layout)
 
 @section('content')
