@@ -50,6 +50,10 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover"
         ]
+        "compile": [
+            "./node_modules/.bin/bower install",
+            "./node_modules/.bin/gulp --production"
+        ]
     },
     "config": {
         "preferred-install": "dist",
