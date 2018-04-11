@@ -33,3 +33,4 @@ Route::group(['middleware' => ['web']], function () {
     Route::resource('articles.recommendations', 'RecommendationsController', ['only' => ['create', 'store']]);
     Route::resource('authors', 'AuthorsController');
 });
+Route::resource('articles.recommendations', 'RecommendationsController', ['only' => ['create', 'store']]);
